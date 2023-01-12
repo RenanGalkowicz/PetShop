@@ -1,0 +1,60 @@
+body {
+    background-color: #E8DAB2;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    padding: 0 24px;
+}
+
+.texto {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#Bem {
+    height: 26px;
+    margin: 0;
+    font-size: 26px;
+    color: #000;
+}
+
+#Nome {
+    height: 52px;
+    margin: 0;
+    font-size: 52px;
+    color: #000;
+}
+
+#Logo {
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: 370px;
+    height: 192px;
+}
+
+article {
+    background-color: #FFF;
+    max-width: 800px;
+    border-radius: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 34px 24px 10px 24px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+  margin-top: 24px;
+}
+
+#foto {
+    width: calc(100% - 30px);
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
